@@ -19,8 +19,8 @@ Requirements:
 
 1. Create a virtualenv  using python 3.9 and install the dependencies that are under the requirements folder in the local.txt file.
     - pip install -r requirements/local.txt
-2. Set the following environment variables with your own custom values
-    - export FLASK_APP=/Users/amontero/Projects/notifications_app/main.py 
+2. Set the following environment variables
+    - export FLASK_APP=/Users/amontero/Projects/notifications_app/main.py (Update the path to the main.py file in your local machine)
     - export FLASK_ENV=development
 3. Execute the seeds module to populate the database with the initial data
     - python -m seeds
